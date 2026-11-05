@@ -2,7 +2,7 @@
 
 **CHIBA** is a high-throughput network telemetry daemon written in C that captures NetFlow v9 streams—either in real time from a live network interface or offline from static PCAP traces—pipelines them into ClickHouse via zero-copy `RowBinary` HTTP streaming, and performs automated dual-horizon behavioral analysis to detect **Distributed Denial-of-Service (DDoS) floods**, **horizontal network sweeps**, **fast and slow stealth port scans**, and **anomalous data exfiltration**.
 
-> 📄 **Full Technical Documentation:** Available in [`doc/chiba_report.pdf`](doc/chiba_report.pdf) (LaTeX source: [`doc/chiba_report.tex`](doc/chiba_report.tex)).
+> 📄 **Full Technical Documentation:** Available in [`doc/chiba_report.pdf`](doc/chiba_report.pdf)
 
 ---
 
