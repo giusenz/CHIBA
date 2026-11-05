@@ -1,0 +1,7 @@
+bin/
+build/
+plan.md
+doc/*.aux
+doc/*.log
+doc/*.out
+doc/*.toc
